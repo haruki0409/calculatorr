@@ -1,6 +1,6 @@
 import React from 'react';
 
-import OutputScreenRow from './outputScreenRow.js';
+import OutputScreenRow from './OutputScreenRow.js';
 
 const OutputScreen = () => {
     return (
@@ -10,3 +10,5 @@ const OutputScreen = () => {
         </div>
     )
 }
+
+export default OutputScreen;
