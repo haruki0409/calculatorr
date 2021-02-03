@@ -20,7 +20,7 @@ class Calculator extends React.Component {
             <div className="frame">
             <CalculatorTitle value="Calculator TI-87"/>
             <div class="mainCalc">
-            <OutputScreen/>
+            <OutputScreen answer = {this.state.answer} question = {this.state.question}/>
             <div className="button-row">
                 <Button handleClick = {this.handleClick} label={'Clear'}/>
                 <Button handleClick = {this.handleClick} label={'Delete'}/>
