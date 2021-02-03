@@ -2,11 +2,11 @@ import React from 'react';
 
 import OutputScreenRow from './OutputScreenRow.js';
 
-const OutputScreen = () => {
+const OutputScreen = (props) => {
     return (
         <div className="screen">
-            <OutputScreenRow/>
-            <OutputScreenRow/>
+            <OutputScreenRow value = {props.question}/>
+            <OutputScreenRow value = {props.answer}/>
         </div>
     )
 }
